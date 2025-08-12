@@ -2,7 +2,7 @@
 
 For Reviews and Related Products Sections
 
-Class Attribs
+Class Attribs  
 Reviews Container = reviews-list  
 Avatar = reviewer-avatar  
 Name = author-name  
