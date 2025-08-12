@@ -1,0 +1,69 @@
+[
+  {
+    "content": "This was so cheap and worth every penny!",
+    "created_at": "2025-02-28T09:24:46.330Z",
+    "first_name": "Michael",
+    "last_name": "Santos",
+    "isPublished": true,
+    "mediaUrls": [
+      "https://i0.wp.com/shawnkirchner.com/wp-content/uploads/2022/06/wireframe-placeholder.png?ssl=1",
+      "https://i0.wp.com/shawnkirchner.com/wp-content/uploads/2022/06/wireframe-placeholder.png?ssl=1"
+    ],
+    "videoUrl": [
+      "https://via.videoplaceholder.com/600x400"
+    ],
+    "rating": 4
+  },
+  {
+    "content": "The quality exceeded my expectations.",
+    "created_at": "2025-03-05T14:12:21.123Z",
+    "first_name": "Sarah",
+    "last_name": "Johnson",
+    "isPublished": true,
+    "mediaUrls": [
+      "https://i0.wp.com/shawnkirchner.com/wp-content/uploads/2022/06/wireframe-placeholder.png?ssl=1",
+      "https://i0.wp.com/shawnkirchner.com/wp-content/uploads/2022/06/wireframe-placeholder.png?ssl=1"
+    ],
+    "videoUrl": [
+      "https://i0.wp.com/shawnkirchner.com/wp-content/uploads/2022/06/wireframe-placeholder.png?ssl=1"
+    ],
+    "rating": 5
+  },
+  {
+    "content": "Delivery took longer than expected, but the product is good.",
+    "created_at": "2025-01-18T08:56:10.789Z",
+    "first_name": "David",
+    "last_name": "Lee",
+    "isPublished": false,
+    "mediaUrls": [
+      "https://i0.wp.com/shawnkirchner.com/wp-content/uploads/2022/06/wireframe-placeholder.png?ssl=1"
+    ],
+    "videoUrl": [],
+    "rating": 3
+  },
+  {
+    "content": "Excellent service and very friendly staff.",
+    "created_at": "2025-04-02T17:45:59.400Z",
+    "first_name": "Anna",
+    "last_name": "Martinez",
+    "isPublished": true,
+    "mediaUrls": [],
+    "videoUrl": [
+      "https://via.videoplaceholder.com/600x400"
+    ],
+    "rating": 5
+  },
+  {
+    "content": "Item came with slight damage, but customer support resolved it quickly.",
+    "created_at": "2025-05-12T12:30:05.222Z",
+    "first_name": "John",
+    "last_name": "Carter",
+    "isPublished": true,
+    "mediaUrls": [
+      "https://i0.wp.com/shawnkirchner.com/wp-content/uploads/2022/06/wireframe-placeholder.png?ssl=1",
+      "https://i0.wp.com/shawnkirchner.com/wp-content/uploads/2022/06/wireframe-placeholder.png?ssl=1"
+    ],
+    "videoUrl": [],
+    "rating": 4
+  }
+]

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .reviews-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .reviews-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .reviews-header h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .reviews-header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .reviews-list {
+            padding: 30px;
+        }
+
+        .review-item {
+            border-bottom: 1px solid #e9ecef;
+            padding: 25px 0;
+            transition: transform 0.2s ease;
+        }
+
+        .review-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .review-item:hover {
+            transform: translateY(-2px);
+        }
+
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .reviewer-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .reviewer-avatar {
+            width: 45px;
+            height: 45px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .reviewer-name {
+            font-weight: 600;
+            color: #333;
+            font-size: 1.1rem;
+        }
+
+        .review-date {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+
+        .rating {
+            display: flex;
+            gap: 2px;
+        }
+
+        .star {
+            color: #ffc107;
+            font-size: 1.2rem;
+        }
+
+        .star.empty {
+            color: #e9ecef;
+        }
+
+        .review-content {
+            color: #495057;
+            font-size: 1rem;
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+
+        .review-media {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .media-item {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .media-item:hover {
+            transform: scale(1.05);
+        }
+
+        .media-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .media-item video {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .reviews-container {
+                margin: 0;
+                border-radius: 0;
+            }
+
+            .reviews-header {
+                padding: 20px;
+            }
+
+            .reviews-header h2 {
+                font-size: 1.5rem;
+            }
+
+            .reviews-list {
+                padding: 20px;
+            }
+
+            .review-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .media-item img,
+            .media-item video {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="reviews-container">
+        <div class="reviews-header">
+            <h2>Customer Reviews</h2>
+            <p>See what our customers are saying</p>
+        </div>
+        
+        <div class="reviews-list">
+            <!-- Michael Santos Review -->
+            <div class="review-item">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">MS</div>
+                        <div>
+                            <div class="reviewer-name">Michael Santos</div>
+                            <div class="review-date">February 28, 2025</div>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star empty">★</span>
+                    </div>
+                </div>
+                <div class="review-content">
+                    This was so cheap and worth every penny!
+                </div>
+                <div class="review-media">
+                    <div class="media-item">
+                        <img src="https://via.placeholder.com/600x400" alt="Review image">
+                    </div>
+                    <div class="media-item">
+                        <img src="https://via.placeholder.com/600x400" alt="Review image">
+                    </div>
+                    <div class="media-item">
+                        <video src="https://via.videoplaceholder.com/600x400" controls></video>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sarah Johnson Review -->
+            <div class="review-item">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">SJ</div>
+                        <div>
+                            <div class="reviewer-name">Sarah Johnson</div>
+                            <div class="review-date">March 5, 2025</div>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+                <div class="review-content">
+                    The quality exceeded my expectations.
+                </div>
+                <div class="review-media">
+                    <div class="media-item">
+                        <img src="https://via.placeholder.com/600x400" alt="Review image">
+                    </div>
+                    <div class="media-item">
+                        <img src="https://via.placeholder.com/600x400" alt="Review image">
+                    </div>
+                    <div class="media-item">
+                        <video src="https://via.videoplaceholder.com/600x400" controls></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

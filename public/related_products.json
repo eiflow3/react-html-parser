@@ -1,0 +1,75 @@
+[
+  {
+    "product_price": {
+      "regular_price": 2000
+    },
+    "product_specification": {
+      "name": "Nike Airforce",
+      "images": [
+        { "image": "https://via.placeholder.com/600x400" },
+        { "image": "https://via.placeholder.com/600x400" }
+      ]
+    },
+    "short_description": "Smooth typing, effortless comfort.",
+    "rating": 3,
+    "reviewCount": 3
+  },
+  {
+    "product_price": {
+      "regular_price": 3500
+    },
+    "product_specification": {
+      "name": "Adidas Ultraboost",
+      "images": [
+        { "image": "https://via.placeholder.com/600x400" },
+        { "image": "https://via.placeholder.com/600x400" }
+      ]
+    },
+    "short_description": "Responsive cushioning with every step.",
+    "rating": 5,
+    "reviewCount": 12
+  },
+  {
+    "product_price": {
+      "regular_price": 1500
+    },
+    "product_specification": {
+      "name": "Puma RS-X",
+      "images": [
+        { "image": "https://via.placeholder.com/600x400" }
+      ]
+    },
+    "short_description": "Bold design meets premium comfort.",
+    "rating": 4,
+    "reviewCount": 8
+  },
+  {
+    "product_price": {
+      "regular_price": 4999
+    },
+    "product_specification": {
+      "name": "Apple Magic Keyboard",
+      "images": [
+        { "image": "https://via.placeholder.com/600x400" }
+      ]
+    },
+    "short_description": "Minimalist design, powerful performance.",
+    "rating": 4,
+    "reviewCount": 25
+  },
+  {
+    "product_price": {
+      "regular_price": 2899
+    },
+    "product_specification": {
+      "name": "Logitech MX Master 3",
+      "images": [
+        { "image": "https://via.placeholder.com/600x400" },
+        { "image": "https://via.placeholder.com/600x400" }
+      ]
+    },
+    "short_description": "Ergonomic mouse with precision tracking.",
+    "rating": 5,
+    "reviewCount": 14
+  }
+]

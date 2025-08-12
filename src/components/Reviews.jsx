@@ -12,93 +12,281 @@ export default function ReviewsTemplateRenderer() {
   const [cssText, setCssText] = useState("");
   const [reviews, setReviews] = useState([]);
 
+  useEffect(() => {
+    fetch("/reviews.json")
+      .then((res) => res.json())
+      .then((data) => setReviews(data))
+      .catch((err) => console.error("Error loading JSON:", err));
+  }, []);
+  console.log(reviews);
   // Simulate fetching layout HTML, CSS and real reviews (replace with real fetch calls)
   useEffect(() => {
     const htmlTemplate = `
-<section class="reviews-section">
-  <h2 class="reviews-title">Customer Reviews</h2>
-  <div class="reviews-grid">
-    
-    <div class="review-card">
-      <div>
-        <div class="review-header">
-          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User" class="review-avatar">
-          <span class="review-name">Jane Doe</span>
+    <div class="reviews-container">
+        <div class="reviews-header">
+            <h2>Customer Reviews</h2>
+            <p>See what our customers are saying</p>
         </div>
-        <div class="review-rating">★★★★★</div>
-        <p class="review-text">Amazing service! The product quality is top-notch and the delivery was faster than expected. Highly recommend!</p>
-      </div>
-    </div>
+        
+        <div class="reviews-list">
+            <!-- Michael Santos Review -->
+            <div class="review-item">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">MS</div>
+                        <div>
+                            <div class="reviewer-name">Michael Santos</div>
+                            <div class="review-date">February 28, 2025</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star empty">★</span>
+                    </div>
+                </div>
+                <div class="review-content">
+                    This was so cheap and worth every penny!
+                </div>
+                <div class="review-media">
+                    <div class="media-item">
+                        <img src="https://i0.wp.com/shawnkirchner.com/wp-content/uploads/2022/06/wireframe-placeholder.png?ssl=1" alt="Review image">
+                    </div>
+                    <div class="media-item">
+                        <img src="https://i0.wp.com/shawnkirchner.com/wp-content/uploads/2022/06/wireframe-placeholder.png?ssl=1" alt="Review image">
+                    </div>
+                    <div class="media-item">
+                        <video src="https://i0.wp.com/shawnkirchner.com/wp-content/uploads/2022/06/wireframe-placeholder.png?ssl=1" controls></video>
+                    </div>
+                </div>
+            </div>
 
-    <div class="review-card">
-      <div>
-        <div class="review-header">
-          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User" class="review-avatar">
-          <span class="review-name">John Smith</span>
+            <!-- Sarah Johnson Review -->
+            <div class="review-item">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">SJ</div>
+                        <div>
+                            <div class="reviewer-name">Sarah Johnson</div>
+                            <div class="review-date">March 5, 2025</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+                <div class="review-content">
+                    The quality exceeded my expectations.
+                </div>
+                <div class="review-media">
+                    <div class="media-item">
+                        <img src="https://i0.wp.com/shawnkirchner.com/wp-content/uploads/2022/06/wireframe-placeholder.png?ssl=1" alt="Review image">
+                    </div>
+                    <div class="media-item">
+                        <img src="https://i0.wp.com/shawnkirchner.com/wp-content/uploads/2022/06/wireframe-placeholder.png?ssl=1" alt="Review image">
+                    </div>
+                    <div class="media-item">
+                        <video src="https://i0.wp.com/shawnkirchner.com/wp-content/uploads/2022/06/wireframe-placeholder.png?ssl=1" controls></video>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="review-rating">★★★★☆</div>
-        <p class="review-text">Very satisfied overall. Customer support was helpful. Just wish the price was a bit lower.</p>
-      </div>
     </div>
-
-    <div class="review-card">
-      <div>
-        <div class="review-header">
-          <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="User" class="review-avatar">
-          <span class="review-name">Emily Carter</span>
-        </div>
-        <div class="review-rating">★★★★☆</div>
-        <p class="review-text">This is my third purchase and I’m still impressed! Everything works perfectly. Definitely my go-to shop.</p>
-      </div>
-    </div>
-
-  </div>
-</section>
 `.trim();
 
     const cssTemplate = `
-.reviews-section { padding: 2rem; background-color: #f9f9f9; font-family: Arial, sans-serif; }
-.reviews-title { text-align: center; font-size: 1.8rem; margin-bottom: 1.5rem; }
-.reviews-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
-.review-card { background: white; border-radius: 10px; padding: 1.2rem; box-shadow: 0 4px 8px rgba(0,0,0,0.08); transition: transform 0.2s ease; }
-.review-card:hover { transform: translateY(-4px); }
-.review-header { display:flex; align-items:center; gap:.8rem; margin-bottom:.5rem; }
-.review-avatar { width:50px; height:50px; border-radius:50%; object-fit:cover; }
-.review-name { font-weight:bold; font-size:1.1rem; color: #000}
-.review-rating { color:#ff9900; font-size:1.2rem; margin-bottom:.8rem; }
-.review-text { font-size:.95rem; line-height:1.4; color:#333; }
-`.trim();
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    const reviewsData = [
-      {
-        name: "Michael Santos",
-        avatar: "https://randomuser.me/api/portraits/men/75.jpg",
-        rating: "★★★★★",
-        text: "The service was outstanding! Definitely coming back for more.",
-      },
-      {
-        name: "Anna Lee",
-        avatar: "https://randomuser.me/api/portraits/women/20.jpg",
-        rating: "★★★★☆",
-        text: "Great experience overall. A few small issues but nothing major.",
-      },
-      {
-        name: "David Kim",
-        avatar: "https://randomuser.me/api/portraits/men/41.jpg",
-        rating: "★★★★★",
-        text: "Perfect from start to finish. Highly recommended!",
-      },
-      {
-        name: "David Kim",
-        avatar: "https://randomuser.me/api/portraits/men/41.jpg",
-        rating: "★★★★★",
-        text: "Perfect from start to finish. Highly recommended!",
-      },
-    ];
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .reviews-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .reviews-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .reviews-header h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .reviews-header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .reviews-list {
+            padding: 30px;
+        }
+
+        .review-item {
+            border-bottom: 1px solid #e9ecef;
+            padding: 25px 0;
+            transition: transform 0.2s ease;
+        }
+
+        .review-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .review-item:hover {
+            transform: translateY(-2px);
+        }
+
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .reviewer-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .reviewer-avatar {
+            width: 45px;
+            height: 45px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .reviewer-name {
+            font-weight: 600;
+            color: #333;
+            font-size: 1.1rem;
+        }
+
+        .review-date {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+
+        .rating {
+            display: flex;
+            gap: 2px;
+        }
+
+        .star {
+            color: #ffc107;
+            font-size: 1.2rem;
+        }
+
+        .star.empty {
+            color: #e9ecef;
+        }
+
+        .review-content {
+            color: #495057;
+            font-size: 1rem;
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+
+        .review-media {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .media-item {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .media-item:hover {
+            transform: scale(1.05);
+        }
+
+        .media-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .media-item video {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .reviews-container {
+                margin: 0;
+                border-radius: 0;
+            }
+
+            .reviews-header {
+                padding: 20px;
+            }
+
+            .reviews-header h2 {
+                font-size: 1.5rem;
+            }
+
+            .reviews-list {
+                padding: 20px;
+            }
+
+            .review-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .media-item img,
+            .media-item video {
+                width: 80px;
+                height: 80px;
+            }
+        }
+`.trim();
 
     setLayoutHtml(htmlTemplate);
     setCssText(cssTemplate);
-    setReviews(reviewsData);
   }, []);
 
   // inject css into head once
@@ -117,7 +305,7 @@ export default function ReviewsTemplateRenderer() {
     // Use DOMParser (browser) to parse the HTML string and get the first .review-card
     try {
       const doc = new DOMParser().parseFromString(layoutHtml, "text/html");
-      const card = doc.querySelector(".review-card");
+      const card = doc.querySelector(".review-item");
       return card ? card.outerHTML : null;
     } catch (e) {
       console.error("Failed to parse layoutHtml via DOMParser:", e);
@@ -127,6 +315,7 @@ export default function ReviewsTemplateRenderer() {
 
   function renderCardFromTemplate(review, idx) {
     if (!reviewCardTemplateHtml) return null;
+    console.log("hello");
     return (
       <React.Fragment key={idx}>
         {parse(reviewCardTemplateHtml, {
@@ -136,23 +325,46 @@ export default function ReviewsTemplateRenderer() {
             const classAttr = domNode.attribs.class || "";
             const classes = classAttr.split(/\s+/).filter(Boolean);
 
-            if (domNode.name === "img" && classes.includes("review-avatar")) {
+            if (domNode.name === "div" && classes.includes("reviewer-avatar")) {
+              const f_name_initial = review.first_name.charAt(0).toUpperCase();
+              const l_name_initial = review.last_name.charAt(0).toUpperCase();
               return (
-                <img
-                  className="review-avatar"
-                  src={review.avatar}
-                  alt={review.name}
-                />
+                <div className="reviewer-avatar">
+                  {f_name_initial + l_name_initial}
+                </div>
               );
             }
-            if (domNode.name === "span" && classes.includes("review-name")) {
-              return <span className="review-name">{review.name}</span>;
+            if (domNode.name === "div" && classes.includes("reviewer-name")) {
+              return (
+                <div className="reviewer-name">
+                  {review.first_name + " " + review.last_name}
+                </div>
+              );
             }
             if (domNode.name === "div" && classes.includes("review-rating")) {
-              return <div className="review-rating">{review.rating}</div>;
+              return (
+                <div className="review-rating">
+                  {Array.from({ length: review.rating }, (_, i) => (
+                    <span key={i} className="star">
+                      ⭐
+                    </span>
+                  ))}
+                </div>
+              );
             }
-            if (domNode.name === "p" && classes.includes("review-text")) {
-              return <p className="review-text">{review.text}</p>;
+            if (domNode.name === "div" && classes.includes("review-date")) {
+              return (
+                <div className="review-rating">
+                  {new Date(review.created_at).toLocaleDateString("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}
+                </div>
+              );
+            }
+            if (domNode.name === "div" && classes.includes("review-content")) {
+              return <p className="review-content">{review.content}</p>;
             }
 
             return undefined;
@@ -174,9 +386,9 @@ export default function ReviewsTemplateRenderer() {
       const classes = classAttr.split(/\s+/).filter(Boolean);
 
       // When we find the container with class "reviews-grid", replace its contents
-      if (classes.includes("reviews-grid")) {
+      if (classes.includes("reviews-list")) {
         return (
-          <div className="reviews-grid">
+          <div className="reviews-list">
             {reviews.map((r, i) => renderCardFromTemplate(r, i))}
           </div>
         );
