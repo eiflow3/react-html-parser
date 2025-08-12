@@ -7,6 +7,22 @@ import parse from "html-react-parser";
  * replaces the cards inside .reviews-grid with live reviews from API,
  * and preserves backend CSS.
  */
+function RenderMedia({ images = [], videos = [] }) {
+  return (
+    <div className="review-media">
+      {images.map((img, idx) => (
+        <div className="media-item" key={`img-${idx}`}>
+          <img src={img} alt={`Review image ${idx + 1}`} />
+        </div>
+      ))}
+      {videos.map((video, idx) => (
+        <div className="media-item" key={`video-${idx}`}>
+          <video src={video} controls />
+        </div>
+      ))}
+    </div>
+  );
+}
 export default function ReviewsTemplateRenderer() {
   const [layoutHtml, setLayoutHtml] = useState("");
   const [cssText, setCssText] = useState("");
@@ -339,6 +355,14 @@ export default function ReviewsTemplateRenderer() {
                 <div className="reviewer-name">
                   {review.first_name + " " + review.last_name}
                 </div>
+              );
+            }
+            if (domNode.name === "div" && classes.includes("review-media")) {
+              return (
+                <RenderMedia
+                  images={review.mediaUrls}
+                  videos={review.videoUrl}
+                />
               );
             }
             if (domNode.name === "div" && classes.includes("review-rating")) {
