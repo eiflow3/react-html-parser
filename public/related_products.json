@@ -1,90 +1,43 @@
-
 [
   {
       "product_specification": {
-          "name": "Akko Macaw Keycap Set",
-          "slug": "akko-macaw-keycap-set",
-          "brand": "",
-          "long_description": "<p><span style=\"color: rgb(33, 33, 33);\">• Material: Double-shot PBT</span></p><p><span style=\"color: rgb(33, 33, 33);\">• Profile: ASA</span></p><p><span style=\"color: rgb(33, 33, 33);\">• MX Compatible</span></p><p><span style=\"color: rgb(33, 33, 33);\">• 199 keycaps</span></p><p>📍 Showroom Location: South Caloocan</p><p>✔️ All items are authentic.</p><p>✔️Payment options are thru debit/credit card, BDO, BPI, Gcash, Unionbank.</p><p>✔️ No returns/exchange unless item is proven fake by a 3rd party authenticator.</p>",
+          "name": " District Cap",
+          "slug": "-district-cap",
+          "brand": "Cozy Cuts",
+          "long_description": "<p>The Cozy Cuts \"District\" Cap provides a structured fit and bold statement with its embroidered logo and adjustable strap, completing your streetwear look with undeniable urban attitude.</p>",
           "images": [
               {
-                  "image": "https://p1media.prosperna.ph/business%2Fstore%2Fmaric100%2F1693965924067-HERO_MACAW_1080x.jpg",
-                  "original_name": "HERO_MACAW_1080x.jpg",
-                  "type": "images/jpeg",
-                  "media_item_id": null,
-                  "name_with_path": "business/store/maric100/1693965924067-HERO_MACAW_1080x.jpg",
-                  "position": 1,
-                  "file_size": 92610,
-                  "shopee_image": "",
-                  "lazada_image": ""
-              },
-              {
-                  "image": "https://p1media.prosperna.ph/business%2Fstore%2Fmaric100%2F1697156737044-Macaw-ASA-600x600.jpg",
-                  "original_name": "Macaw-ASA-600x600.jpg",
-                  "type": "images/jpeg",
-                  "media_item_id": null,
-                  "name_with_path": "business/store/maric100/1697156737044-Macaw-ASA-600x600.jpg",
+                  "image": "https://p1media.prosperna.ph/media%2F67dd1ac4aa2b8fd7a74027c5%2F1742798272331-cap-red.webp",
+                  "original_name": "media/67dd1ac4aa2b8fd7a74027c5/1742798272331-cap-red.webp",
+                  "type": "image/jpeg",
+                  "media_item_id": {
+                      "buffer": {
+                          "type": "Buffer",
+                          "data": [
+                              103,
+                              224,
+                              253,
+                              192,
+                              159,
+                              9,
+                              140,
+                              196,
+                              95,
+                              241,
+                              203,
+                              246
+                          ]
+                      }
+                  },
+                  "name_with_path": "media/67dd1ac4aa2b8fd7a74027c5/1742798272331-cap-red.webp",
                   "position": 0,
-                  "file_size": 35096,
+                  "file_size": 282574,
                   "shopee_image": "",
                   "lazada_image": ""
               }
           ],
           "videos": [],
-          "short_description": "Double-shot PBT \n",
-          "source": "P1",
-          "sku": "dsasd"
-      },
-      "product_state": {
-          "is_product_has_variants": false,
-          "is_hide_stock": false,
-          "is_always_instock": false,
-          "is_published": true,
-          "is_imported": false,
-          "is_trashed": false,
-          "is_sold": false,
-          "is_precreated": false
-      },
-      "product_price": {
-          "regular_price": 2500,
-          "sale_price": 2300,
-          "price_display": "",
-          "unit_cost": 2000,
-          "margin": 0,
-          "stock_quantity": 0,
-          "variant_combination_highest_price": 0,
-          "variant_combination_lowest_price": 0
-      },
-      "rating": 2.73,
-      "store_id": "63dc812b809e8c308d735e72",
-      "id": "64f7de2ccca9370dd36e691f",
-      "related_product_id": "64f7de2ccca9370dd36e691f",
-      "base_product_id": "64f7cb1f3862ed2a8684f49a",
-      "position": 0,
-      "variant_combinations_price_range": null,
-      "reviewCount": 4
-  },
-  {
-      "product_specification": {
-          "name": "JWK Screw-In Stabilizers Set",
-          "slug": "jwk-screw-in-stabilizers-set",
-          "brand": "JWK",
-          "long_description": "<p>Dive into a world where every keypress feels like a symphony with the JWK Screw-In Stabilizers Set. Tailored for tech aficionados, these stabilizers promise an unparalleled typing journey by ensuring each key glides seamlessly. The ergonomic design alleviates the stress of prolonged typing, allowing you to focus on innovation without distraction.</p><p>- <strong>Silent Operation</strong>: Keeps your workspace peaceful.</p><ul><li><strong>Ergonomic Design</strong>: Prioritizes user comfort.</li><li><strong>Premium Construction</strong>: Built to withstand heavy use.</li><li class=\"ql-indent-1\"><strong>User-Friendly</strong>: Simple screw-in setup.Transform your typing experience and redefine productivity.</li></ul>",
-          "images": [
-              {
-                  "image": "https://p1media.prosperna.ph/business%2Fstore%2Fmaric100%2F1693973728704-JWK_STABILIZER_CLEAR_1080x.jpg",
-                  "original_name": "JWK_STABILIZER_CLEAR_1080x.jpg",
-                  "type": "images/jpeg",
-                  "media_item_id": null,
-                  "name_with_path": "business/store/maric100/1693973728704-JWK_STABILIZER_CLEAR_1080x.jpg",
-                  "position": 0,
-                  "file_size": 52484,
-                  "shopee_image": "",
-                  "lazada_image": ""
-              }
-          ],
-          "videos": [],
-          "short_description": "Smooth typing, effortless comfort.",
+          "short_description": "Urban attitude",
           "source": "P1",
           "sku": ""
       },
@@ -99,7 +52,149 @@
           "is_precreated": false
       },
       "product_price": {
-          "regular_price": 1100,
+          "regular_price": 950,
+          "sale_price": 0,
+          "price_display": "",
+          "unit_cost": 300,
+          "margin": 0,
+          "stock_quantity": 0,
+          "variant_combination_highest_price": 0,
+          "variant_combination_lowest_price": 0
+      },
+      "rating": 1.5,
+      "store_id": "67dd1ac4aa2b8fd7a74027c5",
+      "id": "67e0fd22e6f94d5022d5c597",
+      "related_product_id": "67e0fd22e6f94d5022d5c597",
+      "base_product_id": "67e0aeb7e6f94d5022d2bae5",
+      "position": 0,
+      "variant_combinations_price_range": null,
+      "reviewCount": 0
+  },
+  {
+      "product_specification": {
+          "name": "Echo Hoodie",
+          "slug": "echo-hoodie",
+          "brand": "Cozy Cuts",
+          "long_description": "<p>The Cozy Cuts \"Echo\" Hoodie boasts a comfortable, relaxed fit with subtle reflective details that catch the light, making it a stylish and functional piece for nighttime explorations and bold streetwear looks</p>",
+          "images": [
+              {
+                  "image": "https://p1media.prosperna.ph/media%2F67dd1ac4aa2b8fd7a74027c5%2F1742799082056-pants-cargo.webp",
+                  "original_name": "media/67dd1ac4aa2b8fd7a74027c5/1742799082056-pants-cargo.webp",
+                  "type": "image/webp",
+                  "media_item_id": {
+                      "buffer": {
+                          "type": "Buffer",
+                          "data": [
+                              103,
+                              225,
+                              0,
+                              234,
+                              159,
+                              9,
+                              140,
+                              196,
+                              95,
+                              241,
+                              204,
+                              209
+                          ]
+                      }
+                  },
+                  "name_with_path": "media/67dd1ac4aa2b8fd7a74027c5/1742799082056-pants-cargo.webp",
+                  "position": 0,
+                  "file_size": 25492,
+                  "shopee_image": "",
+                  "lazada_image": ""
+              }
+          ],
+          "videos": [],
+          "short_description": "Reflective statement",
+          "source": "P1",
+          "sku": ""
+      },
+      "product_state": {
+          "is_product_has_variants": false,
+          "is_hide_stock": false,
+          "is_always_instock": false,
+          "is_published": true,
+          "is_imported": false,
+          "is_trashed": false,
+          "is_sold": false,
+          "is_precreated": false
+      },
+      "product_price": {
+          "regular_price": 2400,
+          "sale_price": 0,
+          "price_display": "",
+          "unit_cost": 1000,
+          "margin": 0,
+          "stock_quantity": 0,
+          "variant_combination_highest_price": 0,
+          "variant_combination_lowest_price": 0
+      },
+      "rating": 0,
+      "store_id": "67dd1ac4aa2b8fd7a74027c5",
+      "id": "67e0ffdde6f94d5022d5e586",
+      "related_product_id": "67e0ffdde6f94d5022d5e586",
+      "base_product_id": "67e0aeb7e6f94d5022d2bae5",
+      "position": 1,
+      "variant_combinations_price_range": null,
+      "reviewCount": 0
+  },
+  {
+      "product_specification": {
+          "name": "Blank Canvas Tee",
+          "slug": "blank-canvas-tee",
+          "brand": "Cozy Cuts",
+          "long_description": "<p>\tThe Cozy Cuts \"Blank Canvas\" Tee is a wardrobe staple, crafted from premium, breathable cotton with a classic fit, offering endless styling possibilities as the foundation for any streetwear look</p>",
+          "images": [
+              {
+                  "image": "https://p1media.prosperna.ph/media%2F67dd1ac4aa2b8fd7a74027c5%2F1742798881303-shirt-white.webp",
+                  "original_name": "media/67dd1ac4aa2b8fd7a74027c5/1742798881303-shirt-white.webp",
+                  "type": "image/jpeg",
+                  "media_item_id": {
+                      "buffer": {
+                          "type": "Buffer",
+                          "data": [
+                              103,
+                              225,
+                              0,
+                              33,
+                              159,
+                              9,
+                              140,
+                              196,
+                              95,
+                              241,
+                              204,
+                              119
+                          ]
+                      }
+                  },
+                  "name_with_path": "media/67dd1ac4aa2b8fd7a74027c5/1742798881303-shirt-white.webp",
+                  "position": 0,
+                  "file_size": 36820,
+                  "shopee_image": "",
+                  "lazada_image": ""
+              }
+          ],
+          "videos": [],
+          "short_description": "The ultimate essential",
+          "source": "P1",
+          "sku": ""
+      },
+      "product_state": {
+          "is_product_has_variants": false,
+          "is_hide_stock": false,
+          "is_always_instock": false,
+          "is_published": true,
+          "is_imported": false,
+          "is_trashed": false,
+          "is_sold": false,
+          "is_precreated": false
+      },
+      "product_price": {
+          "regular_price": 1200,
           "sale_price": 0,
           "price_display": "",
           "unit_cost": 0,
@@ -108,13 +203,255 @@
           "variant_combination_highest_price": 0,
           "variant_combination_lowest_price": 0
       },
-      "rating": 3,
-      "store_id": "63dc812b809e8c308d735e72",
-      "id": "64f7fc53546489a84a8961e2",
-      "related_product_id": "64f7fc53546489a84a8961e2",
-      "base_product_id": "64f7cb1f3862ed2a8684f49a",
-      "position": 1,
+      "rating": 0,
+      "store_id": "67dd1ac4aa2b8fd7a74027c5",
+      "id": "67e0fed1e6f94d5022d5d854",
+      "related_product_id": "67e0fed1e6f94d5022d5d854",
+      "base_product_id": "67e0aeb7e6f94d5022d2bae5",
+      "position": 2,
       "variant_combinations_price_range": null,
-      "reviewCount": 1
+      "reviewCount": 0
+  },
+  {
+      "product_specification": {
+          "name": "Blueprint Long Sleeve",
+          "slug": "blueprint-long-sleeve",
+          "brand": "Cozy Cuts",
+          "long_description": "<p>The Cozy Cuts \"Blueprint\" Long Sleeve is crafted from soft, breathable cotton and features a minimalist design with subtle branding, making it the perfect versatile layering piece for any streetwear ensemble.</p>",
+          "images": [
+              {
+                  "image": "https://p1media.prosperna.ph/media%2F67dd1ac4aa2b8fd7a74027c5%2F1742798603419-sleeve-red.webp",
+                  "original_name": "media/67dd1ac4aa2b8fd7a74027c5/1742798603419-sleeve-red.webp",
+                  "type": "image/jpeg",
+                  "media_item_id": {
+                      "buffer": {
+                          "type": "Buffer",
+                          "data": [
+                              103,
+                              224,
+                              255,
+                              11,
+                              159,
+                              9,
+                              140,
+                              196,
+                              95,
+                              241,
+                              204,
+                              78
+                          ]
+                      }
+                  },
+                  "name_with_path": "media/67dd1ac4aa2b8fd7a74027c5/1742798603419-sleeve-red.webp",
+                  "position": 0,
+                  "file_size": 90536,
+                  "shopee_image": "",
+                  "lazada_image": ""
+              }
+          ],
+          "videos": [],
+          "short_description": "Essential layering",
+          "source": "P1",
+          "sku": ""
+      },
+      "product_state": {
+          "is_product_has_variants": false,
+          "is_hide_stock": false,
+          "is_always_instock": false,
+          "is_published": true,
+          "is_imported": false,
+          "is_trashed": false,
+          "is_sold": false,
+          "is_precreated": false
+      },
+      "product_price": {
+          "regular_price": 1500,
+          "sale_price": 0,
+          "price_display": "",
+          "unit_cost": 700,
+          "margin": 0,
+          "stock_quantity": 0,
+          "variant_combination_highest_price": 0,
+          "variant_combination_lowest_price": 0
+      },
+      "rating": 0,
+      "store_id": "67dd1ac4aa2b8fd7a74027c5",
+      "id": "67e0feb3e6f94d5022d5d7d1",
+      "related_product_id": "67e0feb3e6f94d5022d5d7d1",
+      "base_product_id": "67e0aeb7e6f94d5022d2bae5",
+      "position": 3,
+      "variant_combinations_price_range": null,
+      "reviewCount": 0
+  },
+  {
+      "product_specification": {
+          "name": "Skyline Jacket",
+          "slug": "skyline-hoodie",
+          "brand": "Cozy Cuts",
+          "long_description": "<p>The Cozy Cuts \"Skyline\" Hoodie envelops you in premium fleece, featuring a relaxed fit, adjustable hood, and a minimalist skyline graphic, making it your go-to layer for effortless streetwear style.</p>",
+          "images": [
+              {
+                  "image": "https://p1media.prosperna.ph/media%2F67dd1ac4aa2b8fd7a74027c5%2F1742797272391-cap-ble.webp",
+                  "original_name": "media/67dd1ac4aa2b8fd7a74027c5/1742797272391-cap-ble.webp",
+                  "type": "image/jpeg",
+                  "media_item_id": {
+                      "buffer": {
+                          "type": "Buffer",
+                          "data": [
+                              103,
+                              224,
+                              249,
+                              216,
+                              159,
+                              9,
+                              140,
+                              196,
+                              95,
+                              241,
+                              203,
+                              61
+                          ]
+                      }
+                  },
+                  "name_with_path": "media/67dd1ac4aa2b8fd7a74027c5/1742797272391-cap-ble.webp",
+                  "position": 0,
+                  "file_size": 196330,
+                  "shopee_image": "",
+                  "lazada_image": ""
+              }
+          ],
+          "videos": [],
+          "short_description": "Elevated comfort.",
+          "source": "P1",
+          "sku": ""
+      },
+      "product_state": {
+          "is_product_has_variants": false,
+          "is_hide_stock": false,
+          "is_always_instock": false,
+          "is_published": true,
+          "is_imported": false,
+          "is_trashed": false,
+          "is_sold": false,
+          "is_precreated": false
+      },
+      "product_price": {
+          "regular_price": 2200,
+          "sale_price": 0,
+          "price_display": "",
+          "unit_cost": 1000,
+          "margin": 0,
+          "stock_quantity": 0,
+          "variant_combination_highest_price": 0,
+          "variant_combination_lowest_price": 0
+      },
+      "rating": 0,
+      "store_id": "67dd1ac4aa2b8fd7a74027c5",
+      "id": "67e0f985e6f94d5022d5beec",
+      "related_product_id": "67e0f985e6f94d5022d5beec",
+      "base_product_id": "67e0aeb7e6f94d5022d2bae5",
+      "position": 4,
+      "variant_combinations_price_range": null,
+      "reviewCount": 0
+  },
+  {
+      "product_specification": {
+          "name": "Utility Cargo Pants",
+          "slug": "utility-cargo-pants",
+          "brand": "Cozy Cuts",
+          "long_description": "<p>The Cozy Cuts \"Utility\" Cargo Pants combine durable construction with ample storage and a relaxed fit, perfect for carrying essentials and making a statement on the streets.</p>",
+          "images": [
+              {
+                  "image": "https://p1media.prosperna.ph/media%2F67dd1ac4aa2b8fd7a74027c5%2F1742778614732-pants-cargo.webp",
+                  "original_name": "media/67dd1ac4aa2b8fd7a74027c5/1742778614732-pants-cargo.webp",
+                  "type": "image/webp",
+                  "media_item_id": {
+                      "buffer": {
+                          "type": "Buffer",
+                          "data": [
+                              103,
+                              224,
+                              176,
+                              246,
+                              159,
+                              9,
+                              140,
+                              196,
+                              95,
+                              241,
+                              189,
+                              145
+                          ]
+                      }
+                  },
+                  "name_with_path": "media/67dd1ac4aa2b8fd7a74027c5/1742778614732-pants-cargo.webp",
+                  "position": 0,
+                  "file_size": 25492,
+                  "shopee_image": "",
+                  "lazada_image": ""
+              },
+              {
+                  "image": "https://p1media.prosperna.ph/media%2F67dd1ac4aa2b8fd7a74027c5%2F1754896335976-cargo1.webp",
+                  "original_name": "media/67dd1ac4aa2b8fd7a74027c5/1754896335976-cargo1.webp",
+                  "type": "image/webp",
+                  "media_item_id": {
+                      "buffer": {
+                          "type": "Buffer",
+                          "data": [
+                              104,
+                              153,
+                              151,
+                              208,
+                              106,
+                              85,
+                              216,
+                              4,
+                              57,
+                              39,
+                              23,
+                              181
+                          ]
+                      }
+                  },
+                  "name_with_path": "media/67dd1ac4aa2b8fd7a74027c5/1754896335976-cargo1.webp",
+                  "position": 1,
+                  "file_size": 62682,
+                  "shopee_image": "",
+                  "lazada_image": ""
+              }
+          ],
+          "videos": [],
+          "short_description": "Street-ready storage.\n\n\n",
+          "source": "P1",
+          "sku": ""
+      },
+      "product_state": {
+          "is_product_has_variants": false,
+          "is_hide_stock": false,
+          "is_always_instock": false,
+          "is_published": true,
+          "is_imported": false,
+          "is_trashed": false,
+          "is_sold": false,
+          "is_precreated": false
+      },
+      "product_price": {
+          "regular_price": 1000,
+          "sale_price": 0,
+          "price_display": "",
+          "unit_cost": 800,
+          "margin": 0,
+          "stock_quantity": 0,
+          "variant_combination_highest_price": 0,
+          "variant_combination_lowest_price": 0
+      },
+      "rating": 0,
+      "store_id": "67dd1ac4aa2b8fd7a74027c5",
+      "id": "67e0b058e6f94d5022d2cc85",
+      "related_product_id": "67e0b058e6f94d5022d2cc85",
+      "base_product_id": "67e0aeb7e6f94d5022d2bae5",
+      "position": 5,
+      "variant_combinations_price_range": null,
+      "reviewCount": 0
   }
 ]
