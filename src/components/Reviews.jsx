@@ -64,7 +64,7 @@ export default function ReviewsTemplateRenderer() {
           <div class="review-item">
             <div class="review-header">
               <div class="reviewer-info">
-                <div class="reviewer-avatar">MT</div>
+                <div class="author-avatar">MT</div>
                 <div class="reviewer-details">
                   <div class="author-name">Max the AI</div>
                   <div class="review-date">August 20, 2025</div>
@@ -258,7 +258,7 @@ export default function ReviewsTemplateRenderer() {
         align-items: center;
         gap: 15px;
       }
-      .reviewer-avatar {
+      .author-avatar {
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -531,11 +531,11 @@ export default function ReviewsTemplateRenderer() {
             const classAttr = domNode.attribs.class || "";
             const classes = classAttr.split(/\s+/).filter(Boolean);
 
-            if (domNode.name === "div" && classes.includes("reviewer-avatar")) {
+            if (domNode.name === "div" && classes.includes("author-avatar")) {
               const f_name_initial = review.first_name.charAt(0).toUpperCase();
               const l_name_initial = review.last_name.charAt(0).toUpperCase();
               return (
-                <div className="reviewer-avatar">
+                <div className="author-avatar">
                   {f_name_initial + l_name_initial}
                 </div>
               );

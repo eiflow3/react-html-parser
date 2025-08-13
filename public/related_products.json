@@ -1,75 +1,120 @@
+
 [
   {
-    "product_price": {
-      "regular_price": 2000
-    },
-    "product_specification": {
-      "name": "Nike Airforce",
-      "images": [
-        { "image": "https://via.placeholder.com/600x400" },
-        { "image": "https://via.placeholder.com/600x400" }
-      ]
-    },
-    "short_description": "Smooth typing, effortless comfort.",
-    "rating": 3,
-    "reviewCount": 3
+      "product_specification": {
+          "name": "Akko Macaw Keycap Set",
+          "slug": "akko-macaw-keycap-set",
+          "brand": "",
+          "long_description": "<p><span style=\"color: rgb(33, 33, 33);\">• Material: Double-shot PBT</span></p><p><span style=\"color: rgb(33, 33, 33);\">• Profile: ASA</span></p><p><span style=\"color: rgb(33, 33, 33);\">• MX Compatible</span></p><p><span style=\"color: rgb(33, 33, 33);\">• 199 keycaps</span></p><p>📍 Showroom Location: South Caloocan</p><p>✔️ All items are authentic.</p><p>✔️Payment options are thru debit/credit card, BDO, BPI, Gcash, Unionbank.</p><p>✔️ No returns/exchange unless item is proven fake by a 3rd party authenticator.</p>",
+          "images": [
+              {
+                  "image": "https://p1media.prosperna.ph/business%2Fstore%2Fmaric100%2F1693965924067-HERO_MACAW_1080x.jpg",
+                  "original_name": "HERO_MACAW_1080x.jpg",
+                  "type": "images/jpeg",
+                  "media_item_id": null,
+                  "name_with_path": "business/store/maric100/1693965924067-HERO_MACAW_1080x.jpg",
+                  "position": 1,
+                  "file_size": 92610,
+                  "shopee_image": "",
+                  "lazada_image": ""
+              },
+              {
+                  "image": "https://p1media.prosperna.ph/business%2Fstore%2Fmaric100%2F1697156737044-Macaw-ASA-600x600.jpg",
+                  "original_name": "Macaw-ASA-600x600.jpg",
+                  "type": "images/jpeg",
+                  "media_item_id": null,
+                  "name_with_path": "business/store/maric100/1697156737044-Macaw-ASA-600x600.jpg",
+                  "position": 0,
+                  "file_size": 35096,
+                  "shopee_image": "",
+                  "lazada_image": ""
+              }
+          ],
+          "videos": [],
+          "short_description": "Double-shot PBT \n",
+          "source": "P1",
+          "sku": "dsasd"
+      },
+      "product_state": {
+          "is_product_has_variants": false,
+          "is_hide_stock": false,
+          "is_always_instock": false,
+          "is_published": true,
+          "is_imported": false,
+          "is_trashed": false,
+          "is_sold": false,
+          "is_precreated": false
+      },
+      "product_price": {
+          "regular_price": 2500,
+          "sale_price": 2300,
+          "price_display": "",
+          "unit_cost": 2000,
+          "margin": 0,
+          "stock_quantity": 0,
+          "variant_combination_highest_price": 0,
+          "variant_combination_lowest_price": 0
+      },
+      "rating": 2.73,
+      "store_id": "63dc812b809e8c308d735e72",
+      "id": "64f7de2ccca9370dd36e691f",
+      "related_product_id": "64f7de2ccca9370dd36e691f",
+      "base_product_id": "64f7cb1f3862ed2a8684f49a",
+      "position": 0,
+      "variant_combinations_price_range": null,
+      "reviewCount": 4
   },
   {
-    "product_price": {
-      "regular_price": 3500
-    },
-    "product_specification": {
-      "name": "Adidas Ultraboost",
-      "images": [
-        { "image": "https://via.placeholder.com/600x400" },
-        { "image": "https://via.placeholder.com/600x400" }
-      ]
-    },
-    "short_description": "Responsive cushioning with every step.",
-    "rating": 5,
-    "reviewCount": 12
-  },
-  {
-    "product_price": {
-      "regular_price": 1500
-    },
-    "product_specification": {
-      "name": "Puma RS-X",
-      "images": [
-        { "image": "https://via.placeholder.com/600x400" }
-      ]
-    },
-    "short_description": "Bold design meets premium comfort.",
-    "rating": 4,
-    "reviewCount": 8
-  },
-  {
-    "product_price": {
-      "regular_price": 4999
-    },
-    "product_specification": {
-      "name": "Apple Magic Keyboard",
-      "images": [
-        { "image": "https://via.placeholder.com/600x400" }
-      ]
-    },
-    "short_description": "Minimalist design, powerful performance.",
-    "rating": 4,
-    "reviewCount": 25
-  },
-  {
-    "product_price": {
-      "regular_price": 2899
-    },
-    "product_specification": {
-      "name": "Logitech MX Master 3",
-      "images": [
-        { "image": "https://via.placeholder.com/600x400" },
-        { "image": "https://via.placeholder.com/600x400" }
-      ]
-    },
-    "short_description": "Ergonomic mouse with precision tracking.",
-    "rating": 5,
-    "reviewCount": 14
+      "product_specification": {
+          "name": "JWK Screw-In Stabilizers Set",
+          "slug": "jwk-screw-in-stabilizers-set",
+          "brand": "JWK",
+          "long_description": "<p>Dive into a world where every keypress feels like a symphony with the JWK Screw-In Stabilizers Set. Tailored for tech aficionados, these stabilizers promise an unparalleled typing journey by ensuring each key glides seamlessly. The ergonomic design alleviates the stress of prolonged typing, allowing you to focus on innovation without distraction.</p><p>- <strong>Silent Operation</strong>: Keeps your workspace peaceful.</p><ul><li><strong>Ergonomic Design</strong>: Prioritizes user comfort.</li><li><strong>Premium Construction</strong>: Built to withstand heavy use.</li><li class=\"ql-indent-1\"><strong>User-Friendly</strong>: Simple screw-in setup.Transform your typing experience and redefine productivity.</li></ul>",
+          "images": [
+              {
+                  "image": "https://p1media.prosperna.ph/business%2Fstore%2Fmaric100%2F1693973728704-JWK_STABILIZER_CLEAR_1080x.jpg",
+                  "original_name": "JWK_STABILIZER_CLEAR_1080x.jpg",
+                  "type": "images/jpeg",
+                  "media_item_id": null,
+                  "name_with_path": "business/store/maric100/1693973728704-JWK_STABILIZER_CLEAR_1080x.jpg",
+                  "position": 0,
+                  "file_size": 52484,
+                  "shopee_image": "",
+                  "lazada_image": ""
+              }
+          ],
+          "videos": [],
+          "short_description": "Smooth typing, effortless comfort.",
+          "source": "P1",
+          "sku": ""
+      },
+      "product_state": {
+          "is_product_has_variants": false,
+          "is_hide_stock": false,
+          "is_always_instock": false,
+          "is_published": true,
+          "is_imported": false,
+          "is_trashed": false,
+          "is_sold": false,
+          "is_precreated": false
+      },
+      "product_price": {
+          "regular_price": 1100,
+          "sale_price": 0,
+          "price_display": "",
+          "unit_cost": 0,
+          "margin": 0,
+          "stock_quantity": 0,
+          "variant_combination_highest_price": 0,
+          "variant_combination_lowest_price": 0
+      },
+      "rating": 3,
+      "store_id": "63dc812b809e8c308d735e72",
+      "id": "64f7fc53546489a84a8961e2",
+      "related_product_id": "64f7fc53546489a84a8961e2",
+      "base_product_id": "64f7cb1f3862ed2a8684f49a",
+      "position": 1,
+      "variant_combinations_price_range": null,
+      "reviewCount": 1
   }
 ]
