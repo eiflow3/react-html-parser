@@ -106,7 +106,7 @@ export default function RelatedProductsTemplateRenderer() {
             ) {
               return (
                 <div className="related-product-price">
-                  ${product.product_price.regular_price}
+                  ₱{product.product_price.regular_price}
                 </div>
               );
             }
@@ -126,19 +126,21 @@ export default function RelatedProductsTemplateRenderer() {
             ) {
               const filledStars = Math.round(+product.rating.toFixed(2));
               const emptyStars = 5 - filledStars;
-
+              console.log(filledStars);
+              console.log(emptyStars)
               return (
                 <div className="related-product-star-rating">
                   {Array.from({ length: filledStars }, (_, i) => (
+                    
                     <i
                       key={`filled-${i}`}
-                      className="fas fa-star related-section-star"
+                      className="fa-solid fa-star related-section-star"
                     ></i>
                   ))}
                   {Array.from({ length: emptyStars }, (_, i) => (
                     <i
                       key={`empty-${i}`}
-                      className="fas fa-star related-section-star empty"
+                      className="fa-regular fa-star related-section-star empty"
                     ></i>
                   ))}
                 </div>
